@@ -36,4 +36,13 @@ public class Fruit implements Comparable<Fruit> {
 
 		return this.size < that.size ? -1 : this.size == that.size ? 0 : 1;
 	}
+
+	/**
+	 * Returns the name of the fruit in String format;
+	 * 
+	 * @return the name of the fruit
+	 */
+	public String getName() {
+		return name;
+	}
 }
